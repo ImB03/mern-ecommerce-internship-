@@ -1,0 +1,67 @@
+.rightSide {
+  .wrapper {
+    .cap {
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+    .title {
+      font-size: 50px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, "Trebuchet MS", "Lucida Sans Unicode",
+        "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+      color: darkslategray;
+    }
+    .desc {
+      font-size: 12px;
+      letter-spacing: 0.5px;
+      line-height: 20px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+    .btn {
+      font-size: 17px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      border: none;
+      border-radius: 20px;
+      padding: 20px 30px;
+    }
+  }
+}
+
+.item {
+  border-radius: 20px;
+  background-color: white;
+  height: 350px;
+  width: 100%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+  .avatar {
+    width: 100%;
+    object-fit: cover;
+    height: 45%;
+    min-height: 45%;
+  }
+
+  .rated {
+    text-align: center;
+    height: 30%;
+    width: 100%;
+    overflow: hidden;
+    min-height: 30%;
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
+
+  .name {
+  }
+}
