@@ -1,0 +1,79 @@
+.cart {
+  .title {
+    font-weight: 900;
+    font-size: 50px;
+    font-family: Poppins, sans-serif;
+  }
+  .directoryPage {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .wrapper {
+    .productsList {
+      .header {
+        background-color: #f5f7f7;
+        color: #262626;
+        padding: 20px 0px;
+        font-size: 12px;
+        font-weight: 600;
+      }
+      .products {
+        color: #262626;
+        font-size: 16px;
+        font-weight: 600;
+        .productItem {
+          border: 0.5px solid #ededed;
+          .img {
+            width: 120px;
+            height: 100px;
+            object-fit: cover;
+          }
+          .nameProduct {
+          }
+        }
+      }
+    }
+    .summary {
+      .titleSummary {
+        font-weight: 800;
+        font-size: 20px;
+        font-family: Poppins, sans-serif;
+        letter-spacing: 1px;
+      }
+      .itemSummary {
+        .name {
+          font-weight: 600;
+          font-size: 12px;
+          letter-spacing: 0.5px;
+        }
+        .price {
+          font-weight: 600;
+          font-size: 14px;
+          letter-spacing: 0.5px;
+        }
+        .checkoutBtn {
+          background-color: rgb(38 38 38);
+          color: white;
+          border: none;
+          font-weight: 500;
+          font-size: 16px;
+          width: 100%;
+          padding: 10px 0px;
+        }
+      }
+      .total {
+        .name {
+          font-weight: 900;
+          font-size: 14px;
+          letter-spacing: 0.5px;
+        }
+        .price {
+          font-weight: 900;
+          font-size: 16px;
+          letter-spacing: 0.5px;
+        }
+      }
+    }
+  }
+}
